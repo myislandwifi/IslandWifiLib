@@ -1,0 +1,24 @@
+{
+  "name": "island-wifi-lib",
+  "version": "0.0.1",
+  "description": "Shared Library for Island Wifi",
+  "main": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "ngc": "ngc",
+    "build": "rm -rf dist && npm run ngc",
+    "publishPackage": "npm run build && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/myislandwifi/IslandWifiLib.git"
+  },
+  "keywords": [],
+  "author": "Scott Lindsay",
+  "license": "MIT",
+  "homepage": "https://myislandwifi.com",
+  "devDependencies": {
+    "typescript": "^1.8.10"
+  }
+}
