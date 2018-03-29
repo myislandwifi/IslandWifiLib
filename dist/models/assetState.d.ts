@@ -1,9 +1,9 @@
-export enum AssetActionDefinition {
+export declare enum AssetActionDefinition {
     checkin = 'checkin',
     checkout = 'checkout'
 }
 
-export enum AssetState {
+export declare enum AssetState {
     inventory = 'Inventory',
     leased = 'Leased',
     missing = 'Missing',

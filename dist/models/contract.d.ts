@@ -1,39 +1,25 @@
+import { PaymentMethod } from './transaction';
 
-export * from './models/agentActivity';
-export * from './models/assetActivity';
-export * from './models/assetState';
-export * from './models/bill';
-export * from './models/cardinfo';
-export * from './models/contract';
-export * from './models/customer';
-export * from './models/islandWifiAsset';
-export * from './models/queryConfig';
-export * from './models/refund';
-export * from './models/StoreLocation'; 
-export * from './models/stripePaymentSource';
-export * from './models/stripeSubscription';
-export * from './models/transaction';
-export * from './models/user';
 
-/*export declare class Contract {
+export class Contract{
     id: string;
-    signatureData: string;
+    signatureData:string;
 
     displayName: string;
-    location: string;
+    location:string;
     firstName: string;
     lastName: string;
     email: string;
     createdAt: number;
-    updatedAt: number;
+    updatedAt:number;
     endsAt: number;
 
     rentalCost: number;
     liabilityAmount: number;
-    paymentMethod: PaymentMethod;
+    paymentMethod:PaymentMethod;
     stripePaymentSource: string;
-    stripePaymentSourceRef: string;
-    subscriptionActive: boolean;
+    stripePaymentSourceRef:string;
+    subscriptionActive:boolean;
 
     contractType: ContractType;
     state: ContractState;
@@ -45,14 +31,21 @@ export * from './models/user';
     agentRef: string;
     agentDisplayName: string;
     managerRef: string;
-    source: string;
-    stripeCustomerRef: string;
-
+    source:string;
+    stripeCustomerRef:string;
 
     notes: string;
 
-    hide?: boolean;
+    hide?:boolean;
+
 }
+
+export function createNewContract(id:string,createdDate:number,endsAt:number,agentId:string):Contract
+export function isDAILYOrOVERNIGHTContract(contractType:string):boolean
+export function isDAILYContract(contractType:string):boolean
+export function isOVERNIGHTContract(contractType:string):boolean
+export function isWEEKLYContract(contractType:string):boolean
+export function isMONTHLYContract(contractType:string):boolean
 
 export declare enum ContractType {
     DAILY = "DAILY",
@@ -64,10 +57,10 @@ export declare enum ContractType {
 }
 
 export declare enum ContractState {
-    draft = 100,
-    active = 200,
-    complete = 300,
-    breached = 400
+    draft=100,
+    active=200,
+    complete=300,
+    breached=400
 }
 
 export declare enum ContractSubstate {
@@ -78,4 +71,4 @@ export declare enum ContractSubstate {
     complete = "Complete",
     breached = "Breached",
     archived = "Archived"
-}*/
+}

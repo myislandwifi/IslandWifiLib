@@ -14,11 +14,7 @@ export class Asset{
     contractRef:string;
     notes:string;
 
-    constructor(barcode:string){
-        this.barcode=barcode;
-    }
 
-    json(){
-      return Object.assign({}, this)
-    }
 }
+
+export function createNewAsset(barcode:string):Asset

@@ -9,7 +9,7 @@ export interface Bill{
 }
 
 
-export enum BillState{
+export declare enum BillState{
     unpaid="unpaid",
     paid="paid"
   }

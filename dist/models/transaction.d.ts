@@ -22,12 +22,12 @@ export interface Transaction {
 
 }
 
-export enum PaymentMethod {
+export declare enum PaymentMethod {
   card = "card",
   cash = "cash"
 }
 
-export enum TransactionType {
+export declare enum TransactionType {
   charge = "charge",
   refund = "refund",
   deposit = 'deposit',

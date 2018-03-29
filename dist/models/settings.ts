@@ -1,1 +1,0 @@
-import { ContractType } from './contract';

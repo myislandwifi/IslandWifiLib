@@ -1,4 +1,12 @@
 
+export interface Roles {
+    reader: boolean;
+    agent?: boolean;
+    manager?:  boolean;
+    admin?:  boolean;
+
+  }
+  
 export interface User{
     id: string;
     email: string;
@@ -10,11 +18,3 @@ export interface User{
     photoURL?: string;  
     
 }
-
-export interface Roles {
-    reader: boolean;
-    agent?: boolean;
-    manager?:  boolean;
-    admin?:  boolean;
-
-  }
