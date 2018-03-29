@@ -1,6 +1,7 @@
 
+export * from './models/transaction'
 
-class Contract {
+/*class Contract {
     constructor(id,createdDate,endsAt,agentId) {
         this.id = id;
         this.createdAt = createdDate;
@@ -13,4 +14,4 @@ class Contract {
         this.endsAt=endsAt;
         this.barcode='';
     }
-}
+}*/

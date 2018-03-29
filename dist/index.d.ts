@@ -1,5 +1,7 @@
 
-export declare class Contract {
+export * from './models/transaction'
+
+/*export declare class Contract {
     id: string;
     signatureData: string;
 
@@ -62,4 +64,4 @@ export declare enum ContractSubstate {
     complete = "Complete",
     breached = "Breached",
     archived = "Archived"
-}
+}*/
