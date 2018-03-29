@@ -18,7 +18,8 @@
   "author": "Scott Lindsay",
   "license": "MIT",
   "homepage": "https://myislandwifi.com",
-  "devDependencies": {
-    "typescript": "^1.8.10"
+  "dependencies": {
+    "enum": "^2.5.0",
+    "typescript": "^2.8.1"
   }
 }
