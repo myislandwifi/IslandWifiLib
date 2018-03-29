@@ -1,15 +1,5 @@
 import { ContractType } from 'island-wifi-lib';
-export enum StoreLocationRegion {
-    FREEPORT = 'FREEPORT',
-    NASSAU = 'NASSAU',
-}
-
-export enum StoreLocationConfigKeys {
-    PRICE_MODIFIER = 'PRICE_MODIFIER',
-    CONTRACT_TYPES_ALLOWED = 'CONTRACT_TYPES_ALLOWED',
-}
-
-
+e
 export interface ContractEntitlement {
     active: boolean;
     contractType: ContractType;
@@ -30,5 +20,3 @@ export interface StoreLocation {
     freeportZorbas='freeportZorbas',*/
 
 }
-
-export function enumKeys<E>(e: E): (keyof E)[];

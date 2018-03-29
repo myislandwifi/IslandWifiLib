@@ -8,9 +8,4 @@ export interface Bill{
     description:string;
 }
 
-
-export declare enum BillState{
-    unpaid="unpaid",
-    paid="paid"
-  }
   

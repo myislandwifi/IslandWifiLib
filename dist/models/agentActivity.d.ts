@@ -1,10 +1,4 @@
 
-export declare enum AgentActivityType{
-    login = "login",
-    logout = "logout",
-    assetCheckin = "assetCheckin",
-    assetCheckout = "assetCheckout"
-}
 
 export interface AgentActivity{
     userEmail:string;

@@ -5,6 +5,7 @@ export * from './models/assetActivity';
 export * from './models/assetState';
 export * from './models/bill';
 export * from './models/cardinfo';
+export * from './models/constants';
 export * from './models/contract';
 export * from './models/customer';
 export * from './models/islandWifiAsset';
