@@ -2,7 +2,6 @@
 
 export * from './models/agentActivity';
 export * from './models/assetActivity';
-export * from './models/assetState';
 export * from './models/bill';
 export * from './models/cardinfo';
 export * from './models/constants';

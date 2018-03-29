@@ -4,16 +4,6 @@ Object.defineProperty(exports, "__esModule",{
 });
 var Enumeration = require("enum");
 
-exports.ContractType = new Enumeration({
-    "DAILY": "DAILY",
-    "OVERNIGHT": "OVERNIGHT",
-    "MULTIPLE_DAYS": "MULTIPLE_DAYS",
-    "WEEKLY": "WEEKLY",
-    "MONTHLY": "MONTHLY",
-    "QUICK_CONNECT": "QUICK_CONNECT"
-});
-
-
 
 exports.BillState = new Enumeration({
     unpaid : "unpaid",
@@ -78,12 +68,13 @@ exports.ContractSubstate = new Enumeration({
         breached : "Breached",
         archived : "Archived"
 });
-export enum StoreLocationRegion = new Enumeration({
+
+exports.StoreLocationRegion = new Enumeration({
     FREEPORT : 'FREEPORT',
         NASSAU : 'NASSAU',
 });
 
-export enum StoreLocationConfigKeys = new Enumeration({
+exports.StoreLocationConfigKeys = new Enumeration({
     PRICE_MODIFIER : 'PRICE_MODIFIER',
         CONTRACT_TYPES_ALLOWED : 'CONTRACT_TYPES_ALLOWED',
 });

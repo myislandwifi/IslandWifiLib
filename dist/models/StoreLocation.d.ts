@@ -1,14 +1,14 @@
-import { ContractType } from 'island-wifi-lib';
-e
+
+
 export interface ContractEntitlement {
     active: boolean;
-    contractType: ContractType;
+    contractType: string;
     priceModifier: number;
 } 
 
 export interface StoreLocation {
     id:string;
-    region: StoreLocationRegion;
+    region: string;
     name: string;
     latitude: number;
     longitude: number;

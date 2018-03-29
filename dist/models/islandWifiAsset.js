@@ -1,6 +1,9 @@
+"use strict";
+Object.defineProperty(exports, "__esModule",{
+    value: true
+});
 
-
-function createNewAsset(barcode){
+exports.createNewAsset = function (barcode){
     var asset = {};
     asset.barcode = barcode;
     return asset;

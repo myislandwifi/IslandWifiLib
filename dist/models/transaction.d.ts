@@ -7,10 +7,10 @@ export interface Transaction {
   source: string;
   transactionRef: string;
 
-  paymentMethod: PaymentMethod;
+  paymentMethod: string;
   amount: number;
 
-  type: TransactionType;
+  type: string;
   refundForPaymentId: string;
 
   createdAt: number;

@@ -1,13 +1,12 @@
-import { AssetActionDefinition } from "./assetState";
 
 
 export interface AssetActivity{
     barcode:string;
     activityTime:number;
-    action:AssetActionDefinition;
+    action:string;
     isAssetConditionSatisfactory:boolean;
     isCustomerAtFault:boolean;
-    customerFaultReason:CustomerFaultReason;
+    customerFaultReason:string;
     customerFaultOtherText:string;
     contractRef:string;
     agentRef:string;

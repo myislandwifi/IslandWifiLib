@@ -1,7 +1,9 @@
+
+
 export interface Bill{
     id:string;
     amountDue:number;
-    state:BillState;
+    state:string;
     dueDate:number;
     depositRequired:boolean;
     createdAt:number;

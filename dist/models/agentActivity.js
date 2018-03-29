@@ -1,6 +1,9 @@
+"use strict";
+Object.defineProperty(exports, "__esModule",{
+    value: true
+});
 
-
-function AgentActivityCreate(userEmail,type,createdAt){
+exports.AgentActivityCreate = function(userEmail,type,createdAt){
     var agentActivity = {};
     agentActivity.userEmail=userEmail;
     agentActivity.type=type;

@@ -2,8 +2,8 @@
 
 export interface AgentActivity{
     userEmail:string;
-    type:AgentActivityType;
+    type:string;
     createdAt:number;
 }
 
-export function AgentActivityCreate(userEmail:string,type:AgentActivityType,createdAt:number):AgentActivity
+export function AgentActivityCreate(userEmail:string,type:string,createdAt:number):AgentActivity

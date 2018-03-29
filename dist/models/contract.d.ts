@@ -1,7 +1,6 @@
-import { PaymentMethod } from './transaction';
 
 
-export class Contract{
+export declare class Contract{
     id: string;
     signatureData:string;
 
@@ -16,14 +15,14 @@ export class Contract{
 
     rentalCost: number;
     liabilityAmount: number;
-    paymentMethod:PaymentMethod;
+    paymentMethod:string;
     stripePaymentSource: string;
     stripePaymentSourceRef:string;
     subscriptionActive:boolean;
 
-    contractType: ContractType;
-    state: ContractState;
-    substate: ContractSubstate;
+    contractType: string;
+    state: string;
+    substate: string;
     depositRequired: boolean;
 
     customerRef: string;

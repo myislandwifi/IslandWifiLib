@@ -1,10 +1,10 @@
-import { AssetActivity } from './assetActivity';
-import { AssetState } from './assetState';
+
+
 export class Asset{
     barcode:string;
     imei:string;
     sim:string;
-    state:AssetState;
+    state:string;
     updatedAt:number;
     createdAt:number;
     location:string;
