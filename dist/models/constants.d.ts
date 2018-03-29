@@ -1,6 +1,6 @@
 var Enumeration = require('enum');
 
-export var ContractType:Enumeration;
+export var myEnum:Enumeration;
 
 
 export declare enum ContractType {
