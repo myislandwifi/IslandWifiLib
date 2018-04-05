@@ -12,3 +12,5 @@ export declare var StoreLocationRegion:Enumeration;
 export declare var StoreLocationConfigKeys:Enumeration;
 export declare var PaymentMethod:Enumeration;
 export declare var TransactionType:Enumeration;
+
+export declare var TestEnum;
