@@ -92,3 +92,5 @@ exports.TransactionType = new Enumeration({
         depositReturn : 'depositReturn',
         breached : 'breached'
 });
+
+TestEnum.t = '';

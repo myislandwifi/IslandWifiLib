@@ -4,7 +4,9 @@
   "description": "Shared Library for Island Wifi",
   "main": "./dist/index.js",
   "typings": "./dist/index.d.ts",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "ngc": "ngc",
     "build": "rm -rf dist && npm run ngc",
