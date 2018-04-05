@@ -93,4 +93,5 @@ exports.TransactionType = new Enumeration({
         breached : 'breached'
 });
 
-TestEnum.t = '';
+exports.TestEnum.test1 = 'asdf1';
+exports.TestEnum.test2 = 'asdf2';
