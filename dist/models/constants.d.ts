@@ -14,3 +14,8 @@ export declare var PaymentMethod:Enumeration;
 export declare var TransactionType:Enumeration;
 
 export declare var TestEnum;
+export declare enum TestEnum2{
+test1='test1'
+}
+
+export declare function TestEnum2List():[];

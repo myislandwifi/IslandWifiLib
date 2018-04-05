@@ -95,3 +95,11 @@ exports.TransactionType = new Enumeration({
 
 exports.TestEnum.test1 = 'asdf1';
 exports.TestEnum.test2 = 'asdf2';
+
+exports.TestEnum2List = function(){
+    var list = [];
+    TestEnum2.forEach(element => {
+        list.push(element);
+    });
+    return list;
+};
